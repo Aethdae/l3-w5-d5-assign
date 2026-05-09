@@ -9,5 +9,5 @@
 ## Usage
 
 - Brings up a list of Todos from the dummyjson API.
-- They are sortable by
+- They are sortable by completion status, and orderable by ID.
 - You can mark them complete by hitting the complete button.
