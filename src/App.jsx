@@ -33,8 +33,7 @@ export default function App() {
   );
 
   function setCompleted(id) {
-    const updateTodo = (todos.filter((todo) => todo.id === id)[0].completed =
-      true);
+    todos.filter((todo) => todo.id === id)[0].completed = true;
     setTodos([...todos]);
   }
 
